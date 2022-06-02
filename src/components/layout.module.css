@@ -1,0 +1,47 @@
+.container {
+  background-color:ivory;
+  margin: auto;
+  max-width: 500px;
+  font-family: sans-serif;
+}
+
+.site-description {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color:aqua;
+  margin: 50px;
+}
+
+.site-title {
+  background-color:#fcc6f7;
+  font-size: 3rem;
+  color: #afffba;
+  font-weight: 700;
+  margin: 3rem 0;
+  text-decoration: underline;
+}
+
+.site-title:hover {
+  color:black;
+  transition: 1.5s;
+}
+
+.heading {
+  color: rebeccapurple;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-link-item {
+  padding-right: 2rem;
+}
+
+.nav-link-text {
+  color: red;
+  text-decoration:none;
+}
